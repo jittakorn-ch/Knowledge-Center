@@ -47,11 +47,11 @@
                 ├── urls.py
                 └── wsgi.py
         ```
-        - Create Django app named _myapp_
+      - Create Django app named _myapp_
         ```
         python manage.py startapp myapp
         ```
-        - Open text editor to develop
+      - Open text editor to develop
         ```
         code .
         ```
