@@ -2,7 +2,7 @@
   - Command Prompt 
       - Create directory name _my_project_
         ```
-         -mkdir my-project
+         mkdir my-project
         ```
       - Navigate to directory to work with. In this case it is _my_project_
         ```
