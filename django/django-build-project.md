@@ -24,7 +24,7 @@
         ```
          django-admin startproject mysite .
         ```
-        > ใช้ . เพื่อบอกให้ Django สร้าง project ใน directory ปัจจุบันที่ใช้งานอยู่ใน Command Prompt
+        > ใช้ . เพื่อบอกให้ Django สร้าง project ใน directory ปัจจุบัน ที่ใช้งานอยู่ใน Command Prompt
         ```
         my_project/
         ├── manage.py
@@ -33,7 +33,7 @@
             ├── asgi.py
             ├── settings.py
             ├── urls.py
-            ├── wsgi.py
+            └── wsgi.py
         ```
         > ถ้าไม่ใช้ .
         ```
@@ -50,6 +50,19 @@
       - Create Django app named _myapp_
         ```
         python manage.py startapp myapp
+        ```
+        ```
+        my_project/
+        ├── manage.py
+        └── mysite/
+        |   ├── __init__.py
+        |   ├── asgi.py
+        |   ...
+        └── myapp/
+            ├── __init__.py
+            ├── admin.py
+            ...
+          
         ```
       - Open text editor to develop
         ```
