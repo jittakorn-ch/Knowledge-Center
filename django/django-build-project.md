@@ -16,6 +16,18 @@
         ```
          env\Scripts\activate
         ```
+        > PowerShell
+        ```
+          env\Scripts\activate.ps1
+        ```
+        > If above is not working try this
+        ```
+          Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process -Force
+        ```
+        ```
+          ./env/Scripts/activate.ps1
+        ```
+        >For more detail https://stackoverflow.com/questions/1365081/virtualenv-in-powershell
       - Install Django
         ```
          pip install django
