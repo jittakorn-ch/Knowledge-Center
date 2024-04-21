@@ -10,7 +10,7 @@
         ```
       - Create a virtual environment named _env_
         ```
-         python manage.py -m venv env
+         python -m venv env
         ```
       - Activate environment _env_
         ```
